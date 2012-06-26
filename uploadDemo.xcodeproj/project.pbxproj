@@ -16,6 +16,8 @@
 		7EA528541599D66D0013FF9A /* uploadDemo.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 7EA528531599D66D0013FF9A /* uploadDemo.entitlements */; };
 		7EA528571599D66D0013FF9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA528561599D66D0013FF9A /* ViewController.m */; };
 		7EA5285A1599D66D0013FF9A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA528581599D66D0013FF9A /* ViewController.xib */; };
+		7EDAF1F31599F27E0060B684 /* firstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EDAF1F11599F27E0060B684 /* firstViewController.m */; };
+		7EDAF1F41599F27E0060B684 /* firstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EDAF1F21599F27E0060B684 /* firstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		7EA528551599D66D0013FF9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7EA528561599D66D0013FF9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7EA528591599D66D0013FF9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7EDAF1F01599F27E0060B684 /* firstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstViewController.h; sourceTree = "<group>"; };
+		7EDAF1F11599F27E0060B684 /* firstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstViewController.m; sourceTree = "<group>"; };
+		7EDAF1F21599F27E0060B684 /* firstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = firstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				7EA528561599D66D0013FF9A /* ViewController.m */,
 				7EA528581599D66D0013FF9A /* ViewController.xib */,
 				7EA528481599D66D0013FF9A /* Supporting Files */,
+				7EDAF1F01599F27E0060B684 /* firstViewController.h */,
+				7EDAF1F11599F27E0060B684 /* firstViewController.m */,
+				7EDAF1F21599F27E0060B684 /* firstViewController.xib */,
 			);
 			path = uploadDemo;
 			sourceTree = "<group>";
@@ -155,6 +163,7 @@
 				7EA5284C1599D66D0013FF9A /* InfoPlist.strings in Resources */,
 				7EA528541599D66D0013FF9A /* uploadDemo.entitlements in Resources */,
 				7EA5285A1599D66D0013FF9A /* ViewController.xib in Resources */,
+				7EDAF1F41599F27E0060B684 /* firstViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +177,7 @@
 				7EA5284E1599D66D0013FF9A /* main.m in Sources */,
 				7EA528521599D66D0013FF9A /* AppDelegate.m in Sources */,
 				7EA528571599D66D0013FF9A /* ViewController.m in Sources */,
+				7EDAF1F31599F27E0060B684 /* firstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +295,7 @@
 				7EA5285F1599D66D0013FF9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
